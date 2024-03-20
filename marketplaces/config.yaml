@@ -1,0 +1,31 @@
+places:
+  - 'ozon-url'
+  - 'wb-url'
+  - 'ym-url'
+  # - 'mg-url'
+
+ozon-url: 'https://docs.google.com/spreadsheets/d/1LpRU2aS0bFiGjsCUbwnMGT0b9s9qNnwLYobEf9HIpPM/'
+wb-url: 'https://docs.google.com/spreadsheets/d/1WFqeMapBzxCsEkQfZGIGbMlhs-rggrF6d8SaiKgINRw/'
+ym-url: 'https://docs.google.com/spreadsheets/d/1R1EAJwCAD9ltHYE_Abw-4TlCqkkasXqkWXxtCzPUtlA/'
+mg-url: 'https://docs.google.com/spreadsheets/d/1BOvxdRtFKszWQ441xnko70y90f9JD4EBXzwNkyBqcac/'
+
+ozon-xpath: "//div[@class='l8o']//span[1]"
+wb-xpath: "//div[@class='product-page__price-block-wrap']//ins"
+ym-xpath: "//div[@id='cardContent']//span[contains(@class, '_3aAw4') or contains(@class, '_8-sD9')]"
+mg-xpath: "//div[@class='sales-block-offer-price__container-price']/span"
+
+user-agent: 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/62.0'
+
+pages-chunk: 10
+
+days:
+  - 'monday'
+  # - 'tuesday'
+  - 'wednesday'
+  - 'friday'
+
+times:
+  - '09:00'
+  # - '18:00'
+  - '09:00'
+  - '09:00'
